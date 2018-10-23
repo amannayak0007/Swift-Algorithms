@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LargeNumberMultiplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MCA-2F-6tF">
+                                <rect key="frame" x="16" y="93" width="343.5" height="68"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Hc-8A-Fww">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="68"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFL-nC-Stg">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SECOND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGX-3X-xTf">
+                                                <rect key="frame" x="0.0" y="47" width="100" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="9kN-X1-uxC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="8Ax-cm-M0d"/>
+                                            <constraint firstAttribute="trailing" secondItem="YGX-3X-xTf" secondAttribute="trailing" id="GiW-QR-Lpi"/>
+                                            <constraint firstItem="AFL-nC-Stg" firstAttribute="leading" secondItem="4Hc-8A-Fww" secondAttribute="leading" id="QED-5H-XtX"/>
+                                            <constraint firstItem="AFL-nC-Stg" firstAttribute="top" secondItem="4Hc-8A-Fww" secondAttribute="top" id="SzL-v4-945"/>
+                                            <constraint firstItem="YGX-3X-xTf" firstAttribute="leading" secondItem="4Hc-8A-Fww" secondAttribute="leading" id="YAJ-Vm-TEi"/>
+                                            <constraint firstItem="YGX-3X-xTf" firstAttribute="top" secondItem="AFL-nC-Stg" secondAttribute="bottom" constant="17" id="nMl-0j-obC"/>
+                                            <constraint firstAttribute="bottom" secondItem="YGX-3X-xTf" secondAttribute="bottom" id="sDn-x7-dgb"/>
+                                            <constraint firstAttribute="trailing" secondItem="AFL-nC-Stg" secondAttribute="trailing" id="tkY-PN-7x6"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qj6-kS-V0u">
+                                        <rect key="frame" x="100" y="0.0" width="243.5" height="68"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cyF-wd-6Hf">
+                                                <rect key="frame" x="0.0" y="0.0" width="243.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Un-ba-mqR">
+                                                <rect key="frame" x="0.0" y="38" width="243.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Qj6-kS-V0u" firstAttribute="leading" secondItem="4Hc-8A-Fww" secondAttribute="trailing" id="zQb-hp-dsS"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJB-U3-qHa">
+                                <rect key="frame" x="31" y="248" width="314" height="50"/>
+                                <color key="backgroundColor" red="0.087553063149999999" green="0.79467623610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dcU-DJ-y3r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="MULTIPLICATION">
+                                    <color key="titleColor" red="0.98039215690000003" green="0.98431372549999996" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jKL-rL-Bpk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="af6-bg-zgY">
+                                <rect key="frame" x="30" y="334" width="315" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MCA-2F-6tF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8ZX-rm-yfn"/>
+                            <constraint firstItem="MCA-2F-6tF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="73" id="D86-iE-zGf"/>
+                            <constraint firstItem="AJB-U3-qHa" firstAttribute="top" secondItem="MCA-2F-6tF" secondAttribute="bottom" constant="87" id="EsM-cg-0PN"/>
+                            <constraint firstItem="af6-bg-zgY" firstAttribute="top" secondItem="AJB-U3-qHa" secondAttribute="bottom" constant="36" id="KR0-0E-v7b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="af6-bg-zgY" secondAttribute="trailing" constant="30" id="O4I-O1-gQw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MCA-2F-6tF" secondAttribute="trailing" constant="15.5" id="QHx-95-dtF"/>
+                            <constraint firstItem="AJB-U3-qHa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="cdg-S8-YBS"/>
+                            <constraint firstItem="af6-bg-zgY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="fPY-z0-rF6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AJB-U3-qHa" secondAttribute="trailing" constant="30" id="gIh-Nz-tdr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstTextField" destination="cyF-wd-6Hf" id="4mg-Qp-KCR"/>
+                        <outlet property="result" destination="af6-bg-zgY" id="AA2-E2-JDg"/>
+                        <outlet property="secondTextField" destination="7Un-ba-mqR" id="w8g-FD-QUU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
