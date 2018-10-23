@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        KandanAlgorithums.shared.findLargestSubArrayWithGivenSum(sequense: [-2,-3,4,-1,-2,1,5,-3])
         return true
     }
 
