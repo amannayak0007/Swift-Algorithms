@@ -8,6 +8,10 @@
 
 import UIKit
 
+struct  User {
+    
+}
+
 class ViewController: UIViewController {
     @IBOutlet weak var secondTextField: UITextField!
     

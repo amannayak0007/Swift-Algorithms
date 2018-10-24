@@ -26,6 +26,19 @@ extension KMPAlgorithums {
 }
 
 extension KMPAlgorithums {
+    
+    // KMP Algorithums
+    
+    // Pie Table Or LPS Tabel Longest prefix which same as longest suffix 
+    @discardableResult
+    func match(input: String, match: String) -> Bool {
+        
+        
+        
+        return true
+    }
+    
+    
     // Naive Algorithm
     
     @discardableResult

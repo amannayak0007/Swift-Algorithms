@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3FA045D9D57D01A568986A19 /* Pods_AlgorithmsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327846EA87D35973D89D2C5F /* Pods_AlgorithmsUITests.framework */; };
+		771C1BDE2180586D00E3A2F2 /* AssociatedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C1BDD2180586D00E3A2F2 /* AssociatedType.swift */; };
+		771C1BE02180A24C00E3A2F2 /* SumProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C1BDF2180A24B00E3A2F2 /* SumProblems.swift */; };
 		77334AAA217F2A5C00F8A859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77334AA9217F2A5C00F8A859 /* AppDelegate.swift */; };
 		77334AAC217F2A5C00F8A859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77334AAB217F2A5C00F8A859 /* ViewController.swift */; };
 		77334AAF217F2A5C00F8A859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77334AAD217F2A5C00F8A859 /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		327846EA87D35973D89D2C5F /* Pods_AlgorithmsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		771C1BDD2180586D00E3A2F2 /* AssociatedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedType.swift; sourceTree = "<group>"; };
+		771C1BDF2180A24B00E3A2F2 /* SumProblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumProblems.swift; sourceTree = "<group>"; };
 		77334AA6217F2A5C00F8A859 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77334AA9217F2A5C00F8A859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77334AAB217F2A5C00F8A859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		771C1BE12180A32E00E3A2F2 /* Algorithums */ = {
+			isa = PBXGroup;
+			children = (
+				771C1BDF2180A24B00E3A2F2 /* SumProblems.swift */,
+				77334ADF217F773500F8A859 /* KMPAlgorithum.swift */,
+				77334ADB217F3F4700F8A859 /* KandanAlgorithums.swift */,
+				77334AD7217F337500F8A859 /* Multiplication.swift */,
+			);
+			path = Algorithums;
+			sourceTree = "<group>";
+		};
+		771C1BE22180A33B00E3A2F2 /* SwiftProblem */ = {
+			isa = PBXGroup;
+			children = (
+				771C1BDD2180586D00E3A2F2 /* AssociatedType.swift */,
+			);
+			path = SwiftProblem;
+			sourceTree = "<group>";
+		};
 		77334A9D217F2A5C00F8A859 = {
 			isa = PBXGroup;
 			children = (
@@ -122,15 +145,14 @@
 		77334AA8217F2A5C00F8A859 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				77334AD7217F337500F8A859 /* Multiplication.swift */,
+				771C1BE22180A33B00E3A2F2 /* SwiftProblem */,
+				771C1BE12180A32E00E3A2F2 /* Algorithums */,
 				77334AA9217F2A5C00F8A859 /* AppDelegate.swift */,
 				77334AAB217F2A5C00F8A859 /* ViewController.swift */,
 				77334AAD217F2A5C00F8A859 /* Main.storyboard */,
 				77334AB0217F2A5F00F8A859 /* Assets.xcassets */,
 				77334AB2217F2A5F00F8A859 /* LaunchScreen.storyboard */,
 				77334AB5217F2A5F00F8A859 /* Info.plist */,
-				77334ADB217F3F4700F8A859 /* KandanAlgorithums.swift */,
-				77334ADF217F773500F8A859 /* KMPAlgorithum.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -392,8 +414,10 @@
 				77334AD8217F337600F8A859 /* Multiplication.swift in Sources */,
 				77334AE0217F773500F8A859 /* KMPAlgorithum.swift in Sources */,
 				77334AAC217F2A5C00F8A859 /* ViewController.swift in Sources */,
+				771C1BE02180A24C00E3A2F2 /* SumProblems.swift in Sources */,
 				77334ADC217F3F4700F8A859 /* KandanAlgorithums.swift in Sources */,
 				77334AAA217F2A5C00F8A859 /* AppDelegate.swift in Sources */,
+				771C1BDE2180586D00E3A2F2 /* AssociatedType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

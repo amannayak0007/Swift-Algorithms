@@ -19,23 +19,16 @@ class MultiplicationSpec: QuickSpec {
             context("if shared instancse is loaded ") {
                 it("check Multiplication of two result input = 123456 and 123456789") {
                     let multiplication = shared.multiplication("123456", "123456789")
-                    expect(multiplication).to(contain("15241481342784"))
-                }
-                
+                    expect(multiplication).to(contain("15241481342784")) }
                 it("check Multiplication of two result input = 123456 and 12345678") {
                     let multiplication = shared.multiplication("123456", "12345678")
-                    expect(multiplication).to(contain("1524148023168"))
-                }
-                
+                    expect(multiplication).to(contain("1524148023168")) }
                 it("check Multiplication of two result input = 123456 and 123456789") {
                     let multiplication = shared.multiplication("123456", "1234567")
-                    expect(multiplication).to(contain("152414703552"))
-                }
-                
+                    expect(multiplication).to(contain("152414703552")) }
                 it("check Multiplication of two result input = 123456 and 123456789") {
                     let multiplication = shared.multiplication("1234563232323", "1234567")
-                    expect(multiplication).toNot(equal("123456323232324239247492497474297472942744"))
-                }
+                    expect(multiplication).toNot(equal("123456323232324239247492497474297472942744")) }
             }
         }
     }
