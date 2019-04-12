@@ -33,6 +33,7 @@
 		774EE7812248AB5E00A883C3 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EE7802248AB5E00A883C3 /* LinkList.swift */; };
 		774EE7832248B85300A883C3 /* SwiftOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EE7822248B85300A883C3 /* SwiftOperators.swift */; };
 		776424392254D48D00BF562D /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776424382254D48D00BF562D /* Caching.swift */; };
+		77A724752260F94400040D2E /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 77A724742260F94400040D2E /* ReadMe.md */; };
 		8FE095B273A32DAC8F1CF3D6 /* Pods_Algorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9C7A3AA374351134564595 /* Pods_Algorithms.framework */; };
 		EB44BCBC3A64C4F049D04AAF /* Pods_AlgorithmsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4571EC3923E3FBEEEA1D470 /* Pods_AlgorithmsTests.framework */; };
 /* End PBXBuildFile section */
@@ -87,6 +88,7 @@
 		774EE7802248AB5E00A883C3 /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		774EE7822248B85300A883C3 /* SwiftOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOperators.swift; sourceTree = "<group>"; };
 		776424382254D48D00BF562D /* Caching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caching.swift; sourceTree = "<group>"; };
+		77A724742260F94400040D2E /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		7A396027E70067EB9A30CEB7 /* Pods-AlgorithmsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsUITests/Pods-AlgorithmsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96D17731389FB9DBE1EA9C0D /* Pods-AlgorithmsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsUITests/Pods-AlgorithmsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C966B5994AF7B616FE284E48 /* Pods-Algorithms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorithms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Algorithms/Pods-Algorithms.debug.xcconfig"; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				77334AB0217F2A5F00F8A859 /* Assets.xcassets */,
 				77334AB2217F2A5F00F8A859 /* LaunchScreen.storyboard */,
 				77334AB5217F2A5F00F8A859 /* Info.plist */,
+				77A724742260F94400040D2E /* ReadMe.md */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 			files = (
 				77334AB4217F2A5F00F8A859 /* LaunchScreen.storyboard in Resources */,
 				77334AB1217F2A5F00F8A859 /* Assets.xcassets in Resources */,
+				77A724752260F94400040D2E /* ReadMe.md in Resources */,
 				77334AAF217F2A5C00F8A859 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
