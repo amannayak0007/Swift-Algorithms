@@ -69,4 +69,6 @@ extension KMPAlgorithums {
         }
         return false
     }
+    
+//    Looking for an iOS candidate for a Philadelphia area location. Candidate must have Swift 5, multithreading, Agile development experience, unit testing, and willing to work in a team environment. No recruiters or third parties. W2 only. Send resume to iOS@softwaremerchant.com if interested.
 }

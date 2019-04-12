@@ -131,6 +131,3 @@ extension Container where Item: Equatable {
         return count >= 1 && self[0] == item
     }
 }
-
-
-

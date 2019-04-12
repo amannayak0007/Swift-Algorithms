@@ -17,14 +17,28 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var firstTextField: UITextField!
     @IBOutlet weak var result: UILabel!
+    
+    var shapeLayer: CAShapeLayer!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.arrayQuestionSolutions()
+        
     }
-
+    
     @IBAction func multiplication(_ sender: Any) {
         let multiplication = Multiplication.shared.multiplication(firstTextField.text ?? "", secondTextField.text ?? "")
         self.result.text = multiplication
     }
+    
+    func arrayQuestionSolutions () {
+       let shared = QuickShortImpl.shared
+        //
+        
+       
+     }
+    
+    
 }
 
