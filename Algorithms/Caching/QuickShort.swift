@@ -12,8 +12,8 @@ import Foundation
 class QuickShortImpl {
     
     static let shared: QuickShortImpl = QuickShortImpl()
-    var sample: [Int] =  [10,16,8,12,15,6,3,9] 
-  //  [10,80,30,90,40,50,70,100]  //[10,16,8,12,15,6,3,9] //
+    var sample: [Int] =  [10,16,8,12,15,6,3,9]
+    //  [10,80,30,90,40,50,70,100]  //[10,16,8,12,15,6,3,9] //
     /*
      Partition-Exchange Sort ===>  In worst case it takes O(n²)
      Best Case ==>  Quick Sort takes O(n log n) time and outperforms Merge and Heap Sort.

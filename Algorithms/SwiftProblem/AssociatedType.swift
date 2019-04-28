@@ -9,7 +9,7 @@
 
 // class is use to understand genric and and associate type problem to solve
 
-
+// A type alias declaration introduces a named alias of an existing type
 import Foundation
 
 //PATs can’t be used in any of those places. They can only be used in the <>s
@@ -25,8 +25,7 @@ class AssociatedType {
     
     func extend<T: Collection>(_ base: T, withNewElems: T) -> T {
         // Ignore the function body for now,
-        // we’re just trying to make it compile.
-        return base
+      return base
     }
     
     //    func extend<T: Collection, U: Collection>(_ base: T, withNewElems: U) -> [T.Iterator.Element]

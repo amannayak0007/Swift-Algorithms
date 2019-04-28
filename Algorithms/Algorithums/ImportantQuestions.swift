@@ -27,22 +27,7 @@ class ImportantQuestions {
     
     
     //questions:2 ===> How to implement a stack using queue?
-    
-    /*
-     
-     
-     
-     */
-    
-    
     //questions:3 ===> How to implement a queue using stack?
-    
-    /*
-     
-     
-     
-     */
-    
 }
 
 

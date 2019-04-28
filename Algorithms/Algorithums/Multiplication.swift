@@ -20,6 +20,7 @@ extension Multiplication {
         var counter = [Int](repeating: 0, count: input1.count+input2.count)
         var num1_index = 0
         var num2_index = 0
+        
         for i in stride(from: input2.count - 1 , to: -1, by: -1) {
             let a = Array(input2)[i]
             var carry = 0

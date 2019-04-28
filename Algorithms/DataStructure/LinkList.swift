@@ -108,6 +108,9 @@ class LinkListRealImplimentation {
         self.linkList1.addNode(node: 11)
         
         self.merge(node1: linkList1.rootNode, node2: linkList2.rootNode)
+        
+        
+ 
     }
     
     
@@ -197,20 +200,62 @@ class LinkListRealImplimentation {
     // Merge a linked list into another linked list at alternate positions.
     
     func merge(node1: LinkListNode<Int>?, node2: LinkListNode<Int>?) {
-        
         var firstLink = node1
-        var new = firstLink
         var secondlink = node2
         while firstLink != nil && secondlink != nil {
             let nextNode = firstLink?.nextNode
             firstLink?.nextNode = secondlink
             firstLink?.nextNode?.nextNode = nextNode
             secondlink = secondlink?.nextNode
-            
-            
             firstLink = firstLink?.nextNode?.nextNode
         }
         
         print(firstLink)
+    }
+    
+    
+    
+  //   Merge two sorted linked lists
+    
+      // 1-> 3 -> 5
+     // 2-> 4
+ 
+    func sortedLinkListMerge(first: LinkListNode<Int>, second: LinkListNode<Int>) -> LinkListNode<Int>? {
+        
+        var firstList:LinkListNode<Int>? = first
+        var secondList:LinkListNode<Int>? = second
+        let dummyNode = LinkListNode(data: -1)
+        var tail:LinkListNode<Int>? = dummyNode
+        tail?.nextNode = nil
+        
+        while true {
+            
+            if firstList == nil {
+               // ittrate  all list remove node
+                break
+            }
+            
+            if secondList == nil {
+                // ittrate  all list and tail node
+                break
+            }
+            
+            if first.data < second.data {
+                tail?.nextNode = LinkListNode(data: first.data)
+                firstList = firstList?.nextNode
+            } else {
+                tail?.nextNode = LinkListNode(data: second.data)
+                secondList = secondList?.nextNode
+            }
+            
+            tail = tail?.nextNode
+            
+        }
+        
+        return dummyNode.nextNode
+    }
+    
+    private func changeRefrense() {
+        
     }
 }
